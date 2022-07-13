@@ -3,7 +3,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://user:user@eureka:8090/eureka/
+      defaultZone: http://user:user@eureka-service:8090/eureka/
   instance:
     instance-id: limit-service-instance
 spring:
